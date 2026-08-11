@@ -2,27 +2,32 @@
 
 本仓库整理了法考主观题相关的学习材料，方便下载与在其他 AI 平台（Gemini、GPT 等）导入练习。
 
+**公开仓库地址**：https://github.com/jinzenshi/fakao-subjective
+
 ## 仓库结构
 
-### 01_真题与讲义
-大文件（docx）因体积较大，已放在 Google Drive，请从以下链接下载：
+### 01_真题与讲义（大文件）
+因体积较大（合计约 18MB），docx 原件放在 Google Drive，请直接下载：
 
-- [Google Drive 法考主观题文件夹](https://drive.google.com/drive/folders/1NZ4_5DKpZSVff2uU1dF3cWQz4yHe00bH)
+- [Google Drive「法考主观题」文件夹](https://drive.google.com/drive/folders/1NZ4_5DKpZSVff2uU1dF3cWQz4yHe00bH)
   - 2014-2022主观题答案.docx
   - 2023-2025题目和答案.docx
   - 2025年主观题基础精讲阶段讲义-刑法-柏浪涛.docx
 
-### 02_进度与练习记录
+### 02_进度与练习记录（本仓库已包含）
 - `progress.json`：机器可读进度
-- `知识点总清单.md`：知识点层级清单
+- `知识点总清单.md`：知识点层级清单与掌握状态
 - `学习日志.md`：每日学习记录
 - `主观题标准答案与练习记录.md`：打磨后的标准答案（持续更新）
 
 ### 03_法条下载
-按科目分类的常用法条与司法解释（Markdown 格式，便于检索）。
+主要法条与司法解释的 Markdown 版本已同步至 Google Drive「法考主观题 / 03_法条下载」目录，便于检索。
 
 ## 使用建议
-1. 克隆或下载本仓库获取进度文件与法条。
+1. 克隆本仓库获取进度文件与标准答案：
+   ```bash
+   git clone https://github.com/jinzenshi/fakao-subjective.git
+   ```
 2. 大体积真题/讲义从 Google Drive 下载。
 3. 可将整个文件夹导入 Gemini / GPT 等平台进行主观题练习。
 
